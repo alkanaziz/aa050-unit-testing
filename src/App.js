@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <h1>User List</h1>
-      <ol>
+      <ol className='userlist'>
         {users.map((user) => {
           return (
             <li key={user.id}>{user.name}</li>
